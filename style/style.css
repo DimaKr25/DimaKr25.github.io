@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Marck+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+img {
+	max-height: 100%;
+	max-width: 100%;
+}
+.content {
+	background-color: #ffeb9c;
+	width: 1200px;
+	margin: 0 auto;
+	font-family: 'Lobster', cursive;
+}
+.row {
+	display: flex;
+}
+.row .box {
+	margin: 10px;
+	width: 100px;
+	background-color: #c4ff4d;
+}
+.col-1 {
+	flex-grow: 1;
+}
+.col-3 {
+	flex-grow: 3;
+}
+h1 {
+	text-align: center;
+	font-size: 100px;
+	background-color: #ffeb9c;
+	font-family: 'Bangers', cursive;
+}
+h2 {
+	text-align: center;
+	font-family: 'Lobster', cursive;
+
+}
+p {
+font-family: 'Marck Script', cursive;
+font-size: 20px;
+}
